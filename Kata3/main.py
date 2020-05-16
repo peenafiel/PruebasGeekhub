@@ -3,7 +3,7 @@ from telegram.ext import Updater, CommandHandler
 
 def main():
     # Instanciamos updater
-    updater = Updater(token="1201526847:AAGJ4Nh5kxxqGBgFuTDnCf-nwOZa2LZMB1k", use_context=True)
+    updater = Updater(token="usrtokenhere", use_context=True)
 
     # Añadiedno un manejador al comando /start
     updater.dispatcher.add_handler(CommandHandler("start", start))
